@@ -1,3 +1,5 @@
+import numpy as np
+
 """Calculate a sum or product from a list of numbers."""
 
 
@@ -12,4 +14,13 @@ def add(numbers):
 def multiply(numbers):
     """Return the product of the numbers; an empty list has product 1."""
     # Assignment 1: replace this line with an implementation using a for loop.
-    raise NotImplementedError("Implement multiply using a for loop.")
+    total = 1
+    for number in numbers:
+        total = total * number
+    return total
+
+def add_numpy(numbers):
+    return np.sum(numbers)
+
+def multiply_numpy(numbers):
+    return np.prod(numbers)
