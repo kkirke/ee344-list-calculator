@@ -1,3 +1,5 @@
+import numpy as np
+
 """Calculate a sum or product from a list of numbers."""
 
 
@@ -17,3 +19,8 @@ def multiply(numbers):
         total = total * number
     return total
 
+def add_numpy(numbers):
+    return np.sum(numbers)
+
+def multiply_numpy(numbers):
+    return np.prod(numbers)
