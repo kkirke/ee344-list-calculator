@@ -7,4 +7,5 @@ print("Numbers:", numbers)
 print("Sum:", add(numbers))
 
 # Assignment 1: implement multiply, then print its result here.
+print("Product:", multiply(numbers))
 # Assignment 2: import and call your add_numpy and multiply_numpy functions here.
